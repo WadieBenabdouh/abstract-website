@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: darkgoldenrod;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+    margin-inline: 8em;
+}
+
+.brand {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: x-large;
+}
+
+.brand .logo {
+    height: 40px;
+}
+
+.header-links ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
