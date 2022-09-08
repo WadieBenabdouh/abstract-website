@@ -65,8 +65,9 @@ header {
     background: #fff;
     transition: all .2s;
 }
+
 /* Section Form */
-.section-wrapper{
+.section-wrapper {
     background-color: #cacfd3;
     height: 20em;
     display: flex;
@@ -74,13 +75,16 @@ header {
     justify-content: center;
     align-items: center;
 }
-.section-wrapper h1{
+
+.section-wrapper h1 {
     font-size: 4rem;
 }
-form input{
+
+form input {
     width: 50em;
     height: 4em;
 }
-form input::placeholder{
+
+/* form input::placeholder{
     
-}
+} */
