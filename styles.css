@@ -83,8 +83,20 @@ header {
 form input {
     width: 50em;
     height: 4em;
+    padding-left: 2em;
 }
 
-/* form input::placeholder{
-    
-} */
+form input::placeholder{
+    font-weight: bold;
+    font-size: 1rem;
+    color: #000;
+    opacity: .8;
+}
+.fa-arrow-right{
+    position: relative;
+    right: 40px;
+    top: 2px;
+}
+.fa-arrow-right:hover{
+    color:#4C5FD5
+}
