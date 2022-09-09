@@ -100,3 +100,15 @@ form input::placeholder{
 .fa-arrow-right:hover{
     color:#4C5FD5
 }
+/* MAIN */
+.perk-logo{
+    max-width: 6em;
+}
+.main-wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* column-gap: 30px; */
+    column-gap: 10px;
+    row-gap: 50px;
+    margin: 10em 10em;
+}
