@@ -102,7 +102,9 @@ form input::placeholder{
 }
 /* MAIN */
 .perk-logo{
-    max-width: 6em;
+    /* max-width: 5em; */
+    height: 5em;
+    width: 5em;
 }
 .main-wrapper{
     display: grid;
@@ -111,4 +113,13 @@ form input::placeholder{
     column-gap: 10px;
     row-gap: 50px;
     margin: 10em 10em;
+}
+.perk-flash{
+    display: flex;
+    /* outline: red solid 2px; */
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+.perk-flash .desc{
+    width: 22em;
 }
