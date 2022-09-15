@@ -271,7 +271,7 @@ footer {
         height: fit-content;
         margin-inline: 0;
         flex-direction: column;
-        outline: red solid 2px;
+        /* outline: red solid 2px; */
     }
 
     .copyright {
