@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -16,7 +17,6 @@ header {
     align-items: center;
     height: 5em;
     margin-inline: 8em;
-    flex-wrap: wrap;
 }
 
 .brand {
@@ -87,27 +87,31 @@ form input {
     padding-left: 2em;
 }
 
-form input::placeholder{
+form input::placeholder {
     font-weight: bold;
     font-size: 1rem;
     color: #000;
     opacity: .8;
 }
-.fa-arrow-right{
+
+.fa-arrow-right {
     position: relative;
     right: 40px;
     top: 2px;
 }
-.fa-arrow-right:hover{
-    color:#4C5FD5
+
+.fa-arrow-right:hover {
+    color: #4C5FD5
 }
+
 /* MAIN */
-.perk-logo{
+.perk-logo {
     /* max-width: 5em; */
     height: 5em;
     width: 5em;
 }
-.main-wrapper{
+
+.main-wrapper {
     display: grid;
     grid-template-columns: auto auto;
     /* column-gap: 30px; */
@@ -115,63 +119,76 @@ form input::placeholder{
     row-gap: 50px;
     margin: 10em 10em;
 }
-.perk-flash{
+
+.perk-flash {
     display: flex;
     /* outline: red solid 2px; */
     justify-content: space-between;
     margin: 20px 30px;
 }
-.perk-flash .desc{
+
+.perk-flash .desc {
     width: 22em;
 }
-.desc a{
+
+.desc a {
     text-decoration: none;
 }
-.desc a:hover{
+
+.desc a:hover {
     text-decoration: underline;
 }
 
 /* FOOTER */
-footer{
+footer {
     height: 25em;
     background: #000;
 }
-.footer-container{
+
+.footer-container {
     color: #cacfd3;
     height: 18em;
     margin: 0 3em;
 }
-.footer-container .column{
+
+.footer-container .column {
     display: inline-block;
     vertical-align: top;
     margin: 2em 3em;
 }
-.column ul{
+
+.column ul {
     list-style: none;
     margin-top: 1em;
 }
-.column ul li{
+
+.column ul li {
     margin: 10px 0;
 }
-.column ul li a{
+
+.column ul li a {
     text-decoration: none;
     color: #fff;
 }
-.column ul li a:hover{
+
+.column ul li a:hover {
     text-decoration: underline;
 }
-.footer-container > :nth-child(4) ul > :nth-child(3){
+
+.footer-container> :nth-child(4) ul> :nth-child(3) {
     /* outline: red solid 2px; */
     margin-bottom: 2em;
 }
-.copyright{
+
+.copyright {
     display: inline-block;
     vertical-align: bottom;
     margin-top: 15em;
     font-size: 17px;
     color: #fff;
 }
-.footer-logo{
+
+.footer-logo {
     background-color: #fff;
     height: 3em;
     border-radius: 10px;
@@ -180,7 +197,7 @@ footer{
     bottom: 1em;
 }
 
-.help{
+.help {
     position: fixed;
     background-color: #4C5FD5;
     padding: 10px 20px;
@@ -188,7 +205,31 @@ footer{
     left: 78em;
     top: 37em;
 }
-.help a{
+
+.help a {
     text-decoration: none;
     color: #fff;
+}
+
+/* MEDIA QUERY */
+@media (max-width:768px) {
+    /* HEADER */
+    .header-wrapper{
+        margin-inline: 0em;
+        flex-direction: column;
+        height: 9em;
+        justify-content: space-around;
+    }
+    /* SECTION FORM */
+    .section-wrapper{
+        height: 12em;
+    }
+    .section-wrapper h1 {
+        font-size: 2rem;
+        margin: 20px 0;
+        text-align: center;
+    }
+    form input{
+        width: 20em;
+    }
 }
