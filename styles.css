@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lato', sans-serif;
 }
 
 header {
@@ -122,4 +123,47 @@ form input::placeholder{
 }
 .perk-flash .desc{
     width: 22em;
+}
+
+/* FOOTER */
+footer{
+    height: 25em;
+    background: #000;
+}
+.footer-container{
+    color: #cacfd3;
+    height: fit-content;
+    margin: 0 3em;
+}
+.footer-container .column{
+    display: inline-block;
+    vertical-align: top;
+    margin: 2em 3em;
+}
+.column ul{
+    list-style: none;
+    margin-top: 1em;
+}
+.column ul li{
+    margin: 10px 0;
+}
+.column ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-container > :nth-child(4) ul > :nth-child(3){
+    /* outline: red solid 2px; */
+    margin-bottom: 2em;
+}
+.copyright{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 10em;
+    margin-top: 15em;
+    font-size: 17px;
+}
+.footer-logo{
+    outline: red solid 2px;
+    background-color: #fff;
+    height: 2em;
 }
