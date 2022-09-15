@@ -125,10 +125,12 @@ form input::placeholder {
     /* outline: red solid 2px; */
     justify-content: space-between;
     margin: 20px 30px;
+    /* outline: red solid 2px; */
 }
 
 .perk-flash .desc {
-    width: 22em;
+    width: 20em;
+    /* outline: #000 solid 2px; */
 }
 
 .desc a {
@@ -245,9 +247,18 @@ footer {
         /* outline: red solid 2px; */
     }
 
+    .perk-flash > *{
+        margin-inline: 5px;
+    }
+
     .perk-flash {
         margin: 0;
         width: 23em;
+        justify-content: space-around;
+    }
+    .perk-flash .desc {
+        width: 14em;
+        /* outline: #000 solid 2px; */
     }
 
     /* FOOTER */
