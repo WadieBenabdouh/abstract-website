@@ -124,6 +124,12 @@ form input::placeholder{
 .perk-flash .desc{
     width: 22em;
 }
+.desc a{
+    text-decoration: none;
+}
+.desc a:hover{
+    text-decoration: underline;
+}
 
 /* FOOTER */
 footer{
@@ -132,7 +138,7 @@ footer{
 }
 .footer-container{
     color: #cacfd3;
-    height: fit-content;
+    height: 18em;
     margin: 0 3em;
 }
 .footer-container .column{
@@ -151,6 +157,9 @@ footer{
     text-decoration: none;
     color: #fff;
 }
+.column ul li a:hover{
+    text-decoration: underline;
+}
 .footer-container > :nth-child(4) ul > :nth-child(3){
     /* outline: red solid 2px; */
     margin-bottom: 2em;
@@ -158,12 +167,28 @@ footer{
 .copyright{
     display: inline-block;
     vertical-align: bottom;
-    margin-left: 10em;
     margin-top: 15em;
     font-size: 17px;
+    color: #fff;
 }
 .footer-logo{
-    outline: red solid 2px;
     background-color: #fff;
-    height: 2em;
+    height: 3em;
+    border-radius: 10px;
+    padding: 2px;
+    position: relative;
+    bottom: 1em;
+}
+
+.help{
+    position: fixed;
+    background-color: #4C5FD5;
+    padding: 10px 20px;
+    border-radius: 50px;
+    left: 78em;
+    top: 37em;
+}
+.help a{
+    text-decoration: none;
+    color: #fff;
 }
